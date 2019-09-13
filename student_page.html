@@ -1,0 +1,110 @@
+<html>
+<head>
+	<title>Student Page</title>
+	<style>
+		html, body {
+			margin: 0;
+			padding: 0;
+
+			background: linear-gradient(#D153FF, #FF6C53, #FFE67E);
+
+			font-family: Arial;
+			color: white;
+		}
+		#header {
+			text-align: center;
+			font-size: 30px;
+
+			padding-top: 10px;
+			padding-bottom: 10px;
+			margin-bottom: 10px;
+		}
+		.container {
+			margin-left: auto;
+			margin-right: auto;
+			/*background-color: blue;*/
+
+			width: 1000px;
+		}
+		#labs, #assignments {
+			background-color: #FC7B7B;
+
+			margin-left: 10px;
+
+			border-width: 2px;
+			border-color: white;
+			border-style: solid;
+
+			float: left;
+			width: 481px;
+		}
+		#lab-header, #assignment-header {
+			text-align: center;
+			font-size: 22px;
+		}
+		.clearfloat {
+			clear: both;
+		}
+		.favorite-things {
+			margin-left: auto;
+			margin-right: auto;
+			margin-top: 10px;
+			padding-top: 10px;
+			padding-top: 10px; 
+			/*background-color: red;*/
+			/*width: 800px;*/
+
+			font-size: 24px; 
+
+			text-align: center;
+		}
+		.favorite-things img {
+			/*width: 100%;*/
+
+			height: 220px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div id="header">
+		<h1><strong>Marisa Mendez Johnson</strong></h1>
+	</div>
+
+	<div class="container">
+		<div id="labs">
+			<div id="lab-header">
+				<h2>Labs</h2>
+			</div>
+			<ul>
+				<li>Lab 1: Student Page</li>
+				<li><a href="http://303.itpwebdev.com/~marisamj/lab2.html" target="_blank">Lab 2: Flexbox Nav</a></li>
+			</ul>
+		</div>
+		<div id="assignments">
+			<div id="assignment-header">
+				<h2>Assignments</h2>
+			</div>
+			<ul>
+				<li><a href="http://303.itpwebdev.com/~marisamj/movie.html" target="_blank">Assignment 1: Movie Analysis Page</a></li>
+			</ul>
+		</div>
+		<div class="clearfloat"></div>
+	</div>
+
+	<div class="favorite-things">
+		<h2>Some of My Favorite Things</h2>
+
+		<div class="favorite-row">
+			<div class="thing">
+				<img src="student_page_images/library.jpg">
+				
+				<img src="student_page_images/baking.jpg">
+				
+				<img src="student_page_images/indiana_dunes.jpg">
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
